@@ -10,6 +10,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   compressHTML: true,
   site: 'https://this-is-senv.github.io',
+  base: '/',
   integrations: [compress(), icon(), mdx(), sitemap()],
   vite: {
     css: {
